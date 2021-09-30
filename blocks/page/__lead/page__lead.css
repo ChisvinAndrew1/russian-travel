@@ -1,0 +1,9 @@
+.page__lead {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__lead {
+    margin: 0;
+  }
+}
