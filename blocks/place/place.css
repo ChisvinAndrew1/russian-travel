@@ -2,6 +2,11 @@
   display: grid;
   gap: 48px 40px;
   grid-template-columns: 460px 1fr;
+  margin-top: 80px;
+}
+
+.place:first-of-type {
+  margin-top: 92px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -15,6 +20,11 @@
   .place {
     gap: 48px 28px;
     grid-template-columns: 340px 1fr;
+    margin-top: 73px;
+  }
+
+  .place:first-of-type {
+    margin-top: 88px;
   }
 }
 
@@ -22,5 +32,10 @@
   .place {
     gap: 32px;
     grid-template-columns: 320px;
+    margin-top: 50px;
+  }
+
+  .place:first-of-type {
+    margin-top: 64px;
   }
 }

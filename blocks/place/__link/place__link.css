@@ -8,4 +8,9 @@
   text-decoration-line: underline;
   margin: 12px 0 0;
   color: #FFFFFF;
+  transition: opacity 1s ease;
+}
+
+.place__link:hover {
+  opacity: .8;
 }

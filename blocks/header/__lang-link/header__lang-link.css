@@ -7,6 +7,11 @@
   color: #fff;
   text-decoration-line: none;
   margin-right: 18px;
+  transition: opacity 1s ease;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 .header__lang-link:last-of-type {

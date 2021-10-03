@@ -20,7 +20,7 @@
   bottom: 0;
   left: 0;
   opacity: .3;
-  background-color: black;
+  background-color: #2A2C2F;
   z-index: -1;
   transition: opacity 1s ease;
 }
